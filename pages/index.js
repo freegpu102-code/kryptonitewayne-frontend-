@@ -117,7 +117,7 @@ export default function Home() {
               transition={{ delay: i * 0.2 }}
               className="bg-gray-700 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 text-center"
             >
-              <p className="text-gray-200 italic mb-4">"{t.msg}"</p>
+              <p className="text-gray-200 italic mb-4">{t.msg}</p>
               <h4 className="text-pink-400 font-bold">{t.name}</h4>
             </motion.div>
           ))}
